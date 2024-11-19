@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+}
+
+body {
+    background-color: #dedada;
+}
+
+main{
+    background-color: #ffffff;
+    width: 980px;
+    height: 600px;
+    margin: 10px auto 0 auto;
+    border-radius: 20px;
+}
