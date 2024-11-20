@@ -15,29 +15,66 @@ body {
 main{
     background-color: #ffffff;
     width: 100%;
-    max-width: 980px;
+    max-width: 900px;
     height: 600px;
     margin: 10px auto 0 auto;
     border-radius: 20px;
-    padding-top: 50px;
+    padding-top: 15px;
 }
 
 
 #add_task {
-    border-style:ridge;
     background-color: dodgerblue;
     border-radius: 5px;
     padding: 5px 10px;
-    margin-left: 60px;
+    margin-left:40px;
 }
 
 #add_section {
-    border-style:ridge;
     border-radius: 5px;
     padding: 5px 10px;
     margin-left: 10px;
 }
 
 hr {
-    margin-top: 50px;
+    margin-top: 20px;
+}
+
+#new_task_container{
+    margin-top: 25px;
+}
+
+.down_arrow {
+    margin-left: 30px;
+}
+
+.new_task {
+    display: inline-block;
+}
+
+#new_task_elements {
+    margin-top: 10px;
+}
+
+.check {
+    border: 1px solid green;
+    color: green;
+    border-radius: 100%;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.target {
+    display: inline-block;
+}
+
+.type {
+    background-color:dodgerblue ;
+    padding: 2px 15px;
+    font-size: 14px;
+    border-radius: 30px;
+    color: white;
 }
