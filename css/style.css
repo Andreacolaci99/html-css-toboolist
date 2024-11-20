@@ -18,7 +18,7 @@ main{
     max-width: 900px;
     height: 600px;
     margin: 10px auto 0 auto;
-    border-radius: 20px;
+    border-radius: 10px;
     padding-top: 15px;
 }
 
@@ -68,11 +68,22 @@ hr {
     margin-left: 30px;
 }
 
+.cross {
+    border: 1px solid red;
+    color: red;
+    border-radius: 100%;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    margin-left: 30px;
+}
+
 .target {
     display: inline-block;
 }
 
-.type {
+.type_editorial {
     background-color:dodgerblue ;
     padding: 2px 15px;
     font-size: 14px;
@@ -82,4 +93,45 @@ hr {
 
 li {
     list-style-type: none;
+    padding: 5px;
+}
+
+.type_goals {
+    background-color:rebeccapurple ;
+    padding: 2px 15px;
+    font-size: 14px;
+    border-radius: 30px;
+    color: white;
+}
+
+.type_recruiting {
+    background-color:rgb(13, 91, 59) ;
+    padding: 2px 15px;
+    font-size: 14px;
+    border-radius: 30px;
+    color: white;
+}
+
+.type_mobile {
+    background-color:orange ;
+    padding: 2px 15px;
+    font-size: 14px;
+    border-radius: 30px;
+    color: white;
+}
+
+.type_website {
+    background-color:fuchsia ;
+    padding: 2px 15px;
+    font-size: 14px;
+    border-radius: 30px;
+    color: white;
+}
+
+.type_sales {
+    background-color:lightgreen ;
+    padding: 2px 15px;
+    font-size: 14px;
+    border-radius: 30px;
+    color: white;
 }
